@@ -1,0 +1,24 @@
+{
+  "name": "servu-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.0.0", // Specify a more concrete version, latest can be too vague
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "firebase": "^9.22.0", // Using a recent stable version of Firebase v9
+    "tailwindcss": "^3.3.0" // Using a recent stable version of TailwindCSS v3
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^13.0.0"
+  }
+}
